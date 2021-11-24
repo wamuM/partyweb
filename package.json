@@ -1,0 +1,26 @@
+{
+  "name": "partyweb",
+  "version": "1.0.0",
+  "description": "A web server ment to be used during a party",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wamuM/partyweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wamuM/partyweb/issues"
+  },
+  "homepage": "https://github.com/wamuM/partyweb#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uid-generator": "^2.0.0",
+    "ws": "^8.2.3"
+  }
+}

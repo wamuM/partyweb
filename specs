@@ -1,0 +1,24 @@
+CLIENT:
+  [VERB] [USERNAME] [PASSWORD]\r\n
+  [BODY]
+
+  [VERB]:
+      CONNECT: links the sender ws to a user 
+SERVER:
+  [CLIENT_VERB | VERB] [STATUS | BLANK]\r\n
+  [BODY] 
+
+  [STATUS]:
+    100
+      100 Successful 
+      101 Created 
+      102 Authorized
+    400
+      200 Unsuccessful
+      201 Already Created
+      202 Wrong Authorization
+    4600
+    4700
+    4800
+    4900
+

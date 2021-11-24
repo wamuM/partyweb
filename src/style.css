@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+:root{
+  --maincolor:#C81D25
+}
+*{
+  margin:0;
+  font-family: Rubik;  
+}
+body{
+  background: var(--maincolor);
+  font-size:130%
+}
+.login{
+  width:80vw;
+  height:500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: fixed;
+  top:20vh;
+  left:10vw;
+}
+.login>input{
+  border: solid 1px black;
+  margin: 1% 0 3.5% 0;
+  background:white;
+  height:50px;
+}
+.login>a{
+  margin-top:5%;
+  color:var(--maincolor);
+  text-decoration: none;
+  background:blanchedalmond;
+  padding:10px 0 0 0;
+  height:50px;
+  font-size:200%;
+  font-weight: 900;
+  border: solid 1px black;
+  border-radius:1.5
+}
